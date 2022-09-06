@@ -27,6 +27,11 @@
       "relation": "manyToMany",
       "target": "api::categorie.categorie",
       "inversedBy": "Actualites"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo"
     }
   }
 }
