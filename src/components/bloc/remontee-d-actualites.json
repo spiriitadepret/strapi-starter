@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_bloc_remontee_d_actualites",
+  "info": {
+    "displayName": "Remontée d'actualités",
+    "icon": "newspaper"
+  },
+  "options": {},
+  "attributes": {
+    "Actualites": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::actualite.actualite"
+    }
+  }
+}

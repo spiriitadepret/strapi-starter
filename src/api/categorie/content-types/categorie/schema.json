@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "singularName": "categorie",
+    "pluralName": "categories",
+    "displayName": "Catégorie"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nom": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Nom",
+      "required": true
+    },
+    "Actualites": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::actualite.actualite",
+      "inversedBy": "Categories"
+    }
+  }
+}

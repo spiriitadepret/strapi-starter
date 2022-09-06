@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_composant_liens",
+  "info": {
+    "displayName": "Lien",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "Interne",
+        "Externe"
+      ]
+    },
+    "Page_interne": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    },
+    "URL_externe": {
+      "type": "string"
+    },
+    "Affichage": {
+      "type": "enumeration",
+      "enum": [
+        "Lien",
+        "Bouton"
+      ],
+      "default": "Lien",
+      "required": true
+    },
+    "Label": {
+      "type": "string"
+    }
+  }
+}

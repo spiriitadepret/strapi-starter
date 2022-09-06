@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_bloc_maillage_internes",
+  "info": {
+    "displayName": "Maillage interne",
+    "icon": "grip-horizontal",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "Sous_titre": {
+      "type": "text"
+    },
+    "Pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page.page"
+    },
+    "Lien": {
+      "type": "component",
+      "repeatable": false,
+      "component": "composant.lien"
+    },
+    "Style": {
+      "type": "enumeration",
+      "enum": [
+        "Grille",
+        "Slider"
+      ]
+    },
+    "Couleur_de_fond": {
+      "type": "enumeration",
+      "enum": [
+        "Blanc",
+        "Gris"
+      ],
+      "default": "Blanc",
+      "required": true
+    }
+  }
+}

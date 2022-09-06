@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_bloc_texte_images",
+  "info": {
+    "displayName": "Texte-Image",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "Texte": {
+      "type": "richtext",
+      "required": true
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Alignement": {
+      "type": "enumeration",
+      "enum": [
+        "Image à gauche",
+        "Image à droite"
+      ],
+      "default": "Image à gauche",
+      "required": true
+    },
+    "Couleur_de_fond": {
+      "type": "enumeration",
+      "enum": [
+        "Blanc",
+        "Gris"
+      ],
+      "default": "Blanc",
+      "required": true
+    },
+    "Lien": {
+      "type": "component",
+      "repeatable": false,
+      "component": "composant.lien"
+    }
+  }
+}
