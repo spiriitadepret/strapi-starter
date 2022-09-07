@@ -1,0 +1,28 @@
+{
+  "name": "Authenticated",
+  "description": "Default role given to authenticated user.",
+  "type": "authenticated",
+  "permissions": [
+    {
+      "action": "api::actualite.actualite.create"
+    },
+    {
+      "action": "api::actualite.actualite.delete"
+    },
+    {
+      "action": "api::actualite.actualite.find"
+    },
+    {
+      "action": "api::actualite.actualite.findOne"
+    },
+    {
+      "action": "api::actualite.actualite.update"
+    },
+    {
+      "action": "plugin::users-permissions.auth.changePassword"
+    },
+    {
+      "action": "plugin::users-permissions.user.me"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "key": "plugin_content_manager_configuration_components::composant.lien",
+  "value": {
+    "uid": "composant.lien",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "URL_externe",
+      "defaultSortBy": "URL_externe",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Type": {
+        "edit": {
+          "label": "Type",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Type",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Page_interne": {
+        "edit": {
+          "label": "Page_interne",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "Titre"
+        },
+        "list": {
+          "label": "Page_interne",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "URL_externe": {
+        "edit": {
+          "label": "URL_externe",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "URL_externe",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Affichage": {
+        "edit": {
+          "label": "Affichage",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Affichage",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Label": {
+        "edit": {
+          "label": "Label",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Label",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Type",
+        "Page_interne",
+        "URL_externe"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Type",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Page_interne",
+            "size": 6
+          },
+          {
+            "name": "URL_externe",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Label",
+            "size": 6
+          },
+          {
+            "name": "Affichage",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

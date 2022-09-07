@@ -1,0 +1,156 @@
+{
+  "key": "plugin_content_manager_configuration_components::bloc.texte-image",
+  "value": {
+    "uid": "bloc.texte-image",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "Titre",
+      "defaultSortBy": "Titre",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Titre": {
+        "edit": {
+          "label": "Titre",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Titre",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Texte": {
+        "edit": {
+          "label": "Texte",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Texte",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Image": {
+        "edit": {
+          "label": "Image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "Alignement": {
+        "edit": {
+          "label": "Alignement",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Alignement",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Couleur_de_fond": {
+        "edit": {
+          "label": "Couleur_de_fond",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Couleur_de_fond",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "Lien": {
+        "edit": {
+          "label": "Lien",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Lien",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "Titre",
+        "Image",
+        "Alignement"
+      ],
+      "edit": [
+        [
+          {
+            "name": "Titre",
+            "size": 6
+          },
+          {
+            "name": "Image",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "Texte",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Lien",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "Alignement",
+            "size": 6
+          },
+          {
+            "name": "Couleur_de_fond",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
