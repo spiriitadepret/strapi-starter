@@ -9,6 +9,18 @@
       "properties": {
         "fields": [
           "Categories",
+          "SEO.canonicalURL",
+          "SEO.keywords",
+          "SEO.metaDescription",
+          "SEO.metaImage",
+          "SEO.metaRobots",
+          "SEO.metaSocial.description",
+          "SEO.metaSocial.image",
+          "SEO.metaSocial.socialNetwork",
+          "SEO.metaSocial.title",
+          "SEO.metaTitle",
+          "SEO.metaViewport",
+          "SEO.structuredData",
           "Slug",
           "Titre"
         ]
@@ -33,6 +45,18 @@
       "properties": {
         "fields": [
           "Categories",
+          "SEO.canonicalURL",
+          "SEO.keywords",
+          "SEO.metaDescription",
+          "SEO.metaImage",
+          "SEO.metaRobots",
+          "SEO.metaSocial.description",
+          "SEO.metaSocial.image",
+          "SEO.metaSocial.socialNetwork",
+          "SEO.metaSocial.title",
+          "SEO.metaTitle",
+          "SEO.metaViewport",
+          "SEO.structuredData",
           "Slug",
           "Titre"
         ]
@@ -45,6 +69,18 @@
       "properties": {
         "fields": [
           "Categories",
+          "SEO.canonicalURL",
+          "SEO.keywords",
+          "SEO.metaDescription",
+          "SEO.metaImage",
+          "SEO.metaRobots",
+          "SEO.metaSocial.description",
+          "SEO.metaSocial.image",
+          "SEO.metaSocial.socialNetwork",
+          "SEO.metaSocial.title",
+          "SEO.metaTitle",
+          "SEO.metaViewport",
+          "SEO.structuredData",
           "Slug",
           "Titre"
         ]
