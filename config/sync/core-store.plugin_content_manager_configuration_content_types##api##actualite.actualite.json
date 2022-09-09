@@ -77,6 +77,20 @@
           "sortable": false
         }
       },
+      "Contenu": {
+        "edit": {
+          "label": "Contenu",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Contenu",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -107,12 +121,6 @@
       }
     },
     "layouts": {
-      "list": [
-        "id",
-        "Titre",
-        "Slug",
-        "createdAt"
-      ],
       "edit": [
         [
           {
@@ -126,6 +134,12 @@
         ],
         [
           {
+            "name": "Contenu",
+            "size": 12
+          }
+        ],
+        [
+          {
             "name": "SEO",
             "size": 12
           }
@@ -133,6 +147,12 @@
       ],
       "editRelations": [
         "Categories"
+      ],
+      "list": [
+        "id",
+        "Titre",
+        "Slug",
+        "createdAt"
       ]
     }
   },

@@ -22,7 +22,8 @@
           "SEO.metaRobots",
           "SEO.structuredData",
           "SEO.metaViewport",
-          "SEO.canonicalURL"
+          "SEO.canonicalURL",
+          "Contenu"
         ]
       },
       "conditions": []
@@ -58,7 +59,8 @@
           "SEO.metaRobots",
           "SEO.structuredData",
           "SEO.metaViewport",
-          "SEO.canonicalURL"
+          "SEO.canonicalURL",
+          "Contenu"
         ]
       },
       "conditions": []
@@ -82,7 +84,8 @@
           "SEO.metaRobots",
           "SEO.structuredData",
           "SEO.metaViewport",
-          "SEO.canonicalURL"
+          "SEO.canonicalURL",
+          "Contenu"
         ]
       },
       "conditions": []
