@@ -10,6 +10,30 @@
       "action": "api::actualite.actualite.findOne"
     },
     {
+      "action": "api::categorie.categorie.find"
+    },
+    {
+      "action": "api::categorie.categorie.findOne"
+    },
+    {
+      "action": "api::page.page.find"
+    },
+    {
+      "action": "api::page.page.findOne"
+    },
+    {
+      "action": "plugin::navigation.client.render"
+    },
+    {
+      "action": "plugin::navigation.client.renderChild"
+    },
+    {
+      "action": "plugin::upload.content-api.find"
+    },
+    {
+      "action": "plugin::upload.content-api.findOne"
+    },
+    {
       "action": "plugin::users-permissions.auth.callback"
     },
     {
