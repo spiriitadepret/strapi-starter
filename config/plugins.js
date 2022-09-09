@@ -2,6 +2,16 @@ module.exports = ({ env }) => ({
   seo: {
     enabled: true,
   },
+  upload: {
+    breakpoints: {
+      xlarge: 1920,
+      large: 1000,
+      medium: 800,
+      devil: 666, // this is a test
+      small: 500,
+      xsmall: 64
+    }
+  },
   'import-export-entries': {
     enabled: true,
   },
@@ -9,12 +19,12 @@ module.exports = ({ env }) => ({
    enabled: true,
    config:{
       plugin:{
-        // disable data-theme tag setting // 
+        // disable data-theme tag setting //
         // setAttribute:false,
 
         // disable strapi theme, will use default ckeditor theme //
         // strapiTheme:false,
-        
+
         // styles applied to editor container (global scope) //
         // styles:`
         // .ck.ck-editor__main .ck-focused{
@@ -30,7 +40,7 @@ module.exports = ({ env }) => ({
 
         // https://ckeditor.com/docs/ckeditor5/latest/features/markdown.html
         // if you need markdown support and output set: removePlugins: [''],
-        // default is 
+        // default is
         // removePlugins: ['Markdown'],
 
         // https://ckeditor.com/docs/ckeditor5/latest/features/toolbar/toolbar.html
