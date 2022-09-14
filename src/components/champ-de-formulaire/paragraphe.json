@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_champ_de_formulaire_paragraphes",
+  "info": {
+    "displayName": "Paragraphe",
+    "icon": "angle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    }
+  }
+}

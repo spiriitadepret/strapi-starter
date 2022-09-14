@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_champ_de_formulaire_radio_choix_uniques",
+  "info": {
+    "displayName": "Radio - Choix unique",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Choix": {
+      "type": "richtext",
+      "default": "Un choix par ligne"
+    }
+  }
+}

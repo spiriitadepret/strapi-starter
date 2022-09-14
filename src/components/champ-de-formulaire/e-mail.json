@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_champ_de_formulaire_e_mails",
+  "info": {
+    "displayName": "E-mail",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    }
+  }
+}
